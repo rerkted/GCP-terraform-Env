@@ -1,5 +1,5 @@
 variable "project" {
-    default = "tevora-cloud-security"
+    default = "rerkt-project"
 }
 
 variable "region" {
@@ -25,7 +25,7 @@ variable "subnetwork_private" {
 
 
 variable "prefix_name" {
-    default = "Tevora"  
+    default = "rerkt"  
 }
 
 ## enable API
