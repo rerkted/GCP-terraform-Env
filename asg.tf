@@ -1,7 +1,7 @@
 # Autoscaling Group 
 resource "google_compute_autoscaler" "autoscaling" {
     name    =   "autoscaling"
-#    project =   "tevora-cloud-security"
+#    project =   "cloud-security"
 #    zone    =   "us-central1-c"
     target  =   google_compute_instance_group_manager.igm.self_link
     
